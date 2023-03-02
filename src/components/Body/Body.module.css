@@ -1,0 +1,53 @@
+.container{
+    gap: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    align-items: center;
+}
+.heading{
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.toolbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.toolbar button{
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #239ce2;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 300;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.toolbar button svg{
+    height: 22px;
+    width: 22px;
+}
+
+.colors{
+    display: flex;
+    gap: 15px;
+    padding: 0 30px;
+}
+
+.colors .color{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
